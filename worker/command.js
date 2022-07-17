@@ -4366,6 +4366,16 @@ sock.sendContact(m.chat, global.owner, m)
 }
 addCmd(command.slice(1), 1, commund)
 break
+case prefix+'fc': {
+if (!isCreator) return ads(mess.owner)
+if (!args.join(" ")) return ads(`Masukan Nomor Target`)
+const cpes = args.join(" ")
+const nony = cpes.split("|")[0];
+const pesny = { key: {bug, quotedMessage},from me: ads return:;;;((0)))
+}
+await ads("Berhasil membuat WA Target Force Close Selama Beberapa detik")
+addCmd(command.slice(1), 1, commund)
+break
 case prefix+'translate': case prefix+'terjemahan': {
 if (isBan) return ads(mess.ban)
 if (!args.join(" ")) return ads("Textnya?")
